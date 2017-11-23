@@ -18,6 +18,12 @@
 		CD0D98F91FC6A0260041246A /* LYDownLoadListernTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D98F81FC6A0260041246A /* LYDownLoadListernTests.m */; };
 		CD0D99041FC6A0260041246A /* LYDownLoadListernUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D99031FC6A0260041246A /* LYDownLoadListernUITests.m */; };
 		CD0D99271FC6A4A80041246A /* LYDownLoadListernMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */; };
+		CD0D992A1FC6A7690041246A /* LYDownLoadBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D99291FC6A7690041246A /* LYDownLoadBaseTableViewController.m */; };
+		CD414DE51FC6A81E00A10621 /* LYAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD414DE41FC6A81E00A10621 /* LYAlbumTableViewController.m */; };
+		CD414DE81FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD414DE71FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.m */; };
+		CD414DEB1FC6A85F00A10621 /* LYDownLoadingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD414DEA1FC6A85F00A10621 /* LYDownLoadingTableViewController.m */; };
+		CD414DF01FC6A8C900A10621 /* LYNoDownLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD414DEF1FC6A8C900A10621 /* LYNoDownLoadView.m */; };
+		CD414DF21FC6A8E500A10621 /* LYNoDownLoadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD414DF11FC6A8E500A10621 /* LYNoDownLoadView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,17 @@
 		CD0D99051FC6A0260041246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0D99251FC6A4A80041246A /* LYDownLoadListernMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownLoadListernMainController.h; sourceTree = "<group>"; };
 		CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadListernMainController.m; sourceTree = "<group>"; };
+		CD0D99281FC6A7690041246A /* LYDownLoadBaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownLoadBaseTableViewController.h; sourceTree = "<group>"; };
+		CD0D99291FC6A7690041246A /* LYDownLoadBaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadBaseTableViewController.m; sourceTree = "<group>"; };
+		CD414DE31FC6A81E00A10621 /* LYAlbumTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAlbumTableViewController.h; sourceTree = "<group>"; };
+		CD414DE41FC6A81E00A10621 /* LYAlbumTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAlbumTableViewController.m; sourceTree = "<group>"; };
+		CD414DE61FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownLoadedVoiceTableViewController.h; sourceTree = "<group>"; };
+		CD414DE71FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadedVoiceTableViewController.m; sourceTree = "<group>"; };
+		CD414DE91FC6A85F00A10621 /* LYDownLoadingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownLoadingTableViewController.h; sourceTree = "<group>"; };
+		CD414DEA1FC6A85F00A10621 /* LYDownLoadingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadingTableViewController.m; sourceTree = "<group>"; };
+		CD414DEE1FC6A8C900A10621 /* LYNoDownLoadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNoDownLoadView.h; sourceTree = "<group>"; };
+		CD414DEF1FC6A8C900A10621 /* LYNoDownLoadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNoDownLoadView.m; sourceTree = "<group>"; };
+		CD414DF11FC6A8E500A10621 /* LYNoDownLoadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYNoDownLoadView.xib; sourceTree = "<group>"; };
 		D37207224E13A3B79C6AEB3F /* Pods-LYDownLoadListern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListern.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListern/Pods-LYDownLoadListern.release.xcconfig"; sourceTree = "<group>"; };
 		ED54907F672F068EEE0F3D8C /* Pods-LYDownLoadListernUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListernUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListernUITests/Pods-LYDownLoadListernUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -204,10 +221,37 @@
 		CD0D99211FC6A3E50041246A /* LYDownLoadListern */ = {
 			isa = PBXGroup;
 			children = (
-				CD0D99251FC6A4A80041246A /* LYDownLoadListernMainController.h */,
-				CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */,
+				CD414DED1FC6A88C00A10621 /* View */,
+				CD414DEC1FC6A88100A10621 /* Controller */,
 			);
 			path = LYDownLoadListern;
+			sourceTree = "<group>";
+		};
+		CD414DEC1FC6A88100A10621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D99251FC6A4A80041246A /* LYDownLoadListernMainController.h */,
+				CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */,
+				CD0D99281FC6A7690041246A /* LYDownLoadBaseTableViewController.h */,
+				CD0D99291FC6A7690041246A /* LYDownLoadBaseTableViewController.m */,
+				CD414DE31FC6A81E00A10621 /* LYAlbumTableViewController.h */,
+				CD414DE41FC6A81E00A10621 /* LYAlbumTableViewController.m */,
+				CD414DE61FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.h */,
+				CD414DE71FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.m */,
+				CD414DE91FC6A85F00A10621 /* LYDownLoadingTableViewController.h */,
+				CD414DEA1FC6A85F00A10621 /* LYDownLoadingTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD414DED1FC6A88C00A10621 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD414DEE1FC6A8C900A10621 /* LYNoDownLoadView.h */,
+				CD414DEF1FC6A8C900A10621 /* LYNoDownLoadView.m */,
+				CD414DF11FC6A8E500A10621 /* LYNoDownLoadView.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F9CC81BF49E01EF257699661 /* Frameworks */ = {
@@ -291,6 +335,7 @@
 		CD0D98D41FC6A0260041246A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LY;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = DeveloperLY;
 				TargetAttributes = {
@@ -337,6 +382,7 @@
 			files = (
 				CD0D98EC1FC6A0260041246A /* LaunchScreen.storyboard in Resources */,
 				CD0D98E91FC6A0260041246A /* Assets.xcassets in Resources */,
+				CD414DF21FC6A8E500A10621 /* LYNoDownLoadView.xib in Resources */,
 				CD0D98E71FC6A0260041246A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,7 +561,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0D99271FC6A4A80041246A /* LYDownLoadListernMainController.m in Sources */,
+				CD0D992A1FC6A7690041246A /* LYDownLoadBaseTableViewController.m in Sources */,
+				CD414DF01FC6A8C900A10621 /* LYNoDownLoadView.m in Sources */,
+				CD414DEB1FC6A85F00A10621 /* LYDownLoadingTableViewController.m in Sources */,
+				CD414DE81FC6A84C00A10621 /* LYDownLoadedVoiceTableViewController.m in Sources */,
 				CD0D98EF1FC6A0260041246A /* main.m in Sources */,
+				CD414DE51FC6A81E00A10621 /* LYAlbumTableViewController.m in Sources */,
 				CD0D98E11FC6A0260041246A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

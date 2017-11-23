@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="v01-HR-LAA" customClass="LYNoDownLoadView">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="239"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noData_download" translatesAutoresizingMaskIntoConstraints="NO" id="37G-Jv-NAb">
+                    <rect key="frame" x="46" y="0.0" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="lrc-40-LLS"/>
+                        <constraint firstAttribute="height" constant="150" id="ycP-Vf-VwU"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhq-m8-GEe">
+                    <rect key="frame" x="81" y="166" width="80" height="30"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="8vO-m7-ZaO"/>
+                        <constraint firstAttribute="height" constant="30" id="YuX-gc-Znk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="去看看">
+                        <color key="titleColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="HandleButtonClick:" destination="v01-HR-LAA" eventType="touchUpInside" id="sNC-BL-vPH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mhq-m8-GEe" firstAttribute="top" secondItem="37G-Jv-NAb" secondAttribute="bottom" constant="16" id="6Cy-v3-Pzx"/>
+                <constraint firstItem="mhq-m8-GEe" firstAttribute="centerX" secondItem="37G-Jv-NAb" secondAttribute="centerX" id="N5z-nK-G2j"/>
+                <constraint firstItem="37G-Jv-NAb" firstAttribute="top" secondItem="v01-HR-LAA" secondAttribute="top" id="Ss4-lR-zRd"/>
+                <constraint firstItem="37G-Jv-NAb" firstAttribute="centerX" secondItem="v01-HR-LAA" secondAttribute="centerX" id="qeF-KM-a4a"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="CVD-hG-LaS"/>
+            <connections>
+                <outlet property="noDataImageView" destination="37G-Jv-NAb" id="zTl-Tc-Da9"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="-19"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="noData_download" width="500" height="560"/>
+    </resources>
+</document>
