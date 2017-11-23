@@ -1,0 +1,15 @@
+PODS:
+  - LYSegmentBar (0.1.0):
+    - LYXiMaLaYaFMBase/Category
+  - LYXiMaLaYaFMBase/Category (0.1.0)
+
+DEPENDENCIES:
+  - LYSegmentBar (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  LYSegmentBar: 13f4fa41ab38ceabedfa249faa7f28ce5d605de6
+  LYXiMaLaYaFMBase: 866d3f44b7a1c0d3a214614125ff23b66e7c4c2f
+
+PODFILE CHECKSUM: eb137adeb93abad6ccc8bb3439c16a94aa7eecb1
+
+COCOAPODS: 1.3.1

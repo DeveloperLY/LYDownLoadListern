@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1764979316535D40978FF4A9 /* Pods_LYDownLoadListern.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51454130C663FEEFDC5CA47D /* Pods_LYDownLoadListern.framework */; };
+		4F0EDA4252EEF493BDACD0AE /* Pods_LYDownLoadListernUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A00C0812C087B05169B2EE /* Pods_LYDownLoadListernUITests.framework */; };
+		6A23A1F61A84DC5F973DA630 /* Pods_LYDownLoadListernTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C542CCB15F732F403D0BD91 /* Pods_LYDownLoadListernTests.framework */; };
+		CD0D98E11FC6A0260041246A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D98E01FC6A0260041246A /* AppDelegate.m */; };
+		CD0D98E71FC6A0260041246A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0D98E51FC6A0260041246A /* Main.storyboard */; };
+		CD0D98E91FC6A0260041246A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0D98E81FC6A0260041246A /* Assets.xcassets */; };
+		CD0D98EC1FC6A0260041246A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0D98EA1FC6A0260041246A /* LaunchScreen.storyboard */; };
+		CD0D98EF1FC6A0260041246A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D98EE1FC6A0260041246A /* main.m */; };
+		CD0D98F91FC6A0260041246A /* LYDownLoadListernTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D98F81FC6A0260041246A /* LYDownLoadListernTests.m */; };
+		CD0D99041FC6A0260041246A /* LYDownLoadListernUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D99031FC6A0260041246A /* LYDownLoadListernUITests.m */; };
+		CD0D99271FC6A4A80041246A /* LYDownLoadListernMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0D98F51FC6A0260041246A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0D98D41FC6A0260041246A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0D98DB1FC6A0260041246A;
+			remoteInfo = LYDownLoadListern;
+		};
+		CD0D99001FC6A0260041246A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0D98D41FC6A0260041246A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0D98DB1FC6A0260041246A;
+			remoteInfo = LYDownLoadListern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C542CCB15F732F403D0BD91 /* Pods_LYDownLoadListernTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYDownLoadListernTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51454130C663FEEFDC5CA47D /* Pods_LYDownLoadListern.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYDownLoadListern.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		749CD455CF45D7F1500DE277 /* Pods-LYDownLoadListernTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListernTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListernTests/Pods-LYDownLoadListernTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8025D5E2782A6846552084CD /* Pods-LYDownLoadListern.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListern.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListern/Pods-LYDownLoadListern.debug.xcconfig"; sourceTree = "<group>"; };
+		A0CE420D856EEF12DC236208 /* Pods-LYDownLoadListernTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListernTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListernTests/Pods-LYDownLoadListernTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD1B6A0770A2E498AEE802D2 /* Pods-LYDownLoadListernUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListernUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListernUITests/Pods-LYDownLoadListernUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B3A00C0812C087B05169B2EE /* Pods_LYDownLoadListernUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYDownLoadListernUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D98DC1FC6A0260041246A /* LYDownLoadListern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYDownLoadListern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D98DF1FC6A0260041246A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD0D98E01FC6A0260041246A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD0D98E61FC6A0260041246A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD0D98E81FC6A0260041246A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0D98EB1FC6A0260041246A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD0D98ED1FC6A0260041246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0D98EE1FC6A0260041246A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD0D98F41FC6A0260041246A /* LYDownLoadListernTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDownLoadListernTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D98F81FC6A0260041246A /* LYDownLoadListernTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadListernTests.m; sourceTree = "<group>"; };
+		CD0D98FA1FC6A0260041246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0D98FF1FC6A0260041246A /* LYDownLoadListernUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYDownLoadListernUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0D99031FC6A0260041246A /* LYDownLoadListernUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadListernUITests.m; sourceTree = "<group>"; };
+		CD0D99051FC6A0260041246A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0D99251FC6A4A80041246A /* LYDownLoadListernMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownLoadListernMainController.h; sourceTree = "<group>"; };
+		CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownLoadListernMainController.m; sourceTree = "<group>"; };
+		D37207224E13A3B79C6AEB3F /* Pods-LYDownLoadListern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListern.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListern/Pods-LYDownLoadListern.release.xcconfig"; sourceTree = "<group>"; };
+		ED54907F672F068EEE0F3D8C /* Pods-LYDownLoadListernUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYDownLoadListernUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYDownLoadListernUITests/Pods-LYDownLoadListernUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0D98D91FC6A0260041246A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1764979316535D40978FF4A9 /* Pods_LYDownLoadListern.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D98F11FC6A0260041246A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A23A1F61A84DC5F973DA630 /* Pods_LYDownLoadListernTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D98FC1FC6A0260041246A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0EDA4252EEF493BDACD0AE /* Pods_LYDownLoadListernUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0844215C1F178657F6214AE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8025D5E2782A6846552084CD /* Pods-LYDownLoadListern.debug.xcconfig */,
+				D37207224E13A3B79C6AEB3F /* Pods-LYDownLoadListern.release.xcconfig */,
+				749CD455CF45D7F1500DE277 /* Pods-LYDownLoadListernTests.debug.xcconfig */,
+				A0CE420D856EEF12DC236208 /* Pods-LYDownLoadListernTests.release.xcconfig */,
+				ED54907F672F068EEE0F3D8C /* Pods-LYDownLoadListernUITests.debug.xcconfig */,
+				AD1B6A0770A2E498AEE802D2 /* Pods-LYDownLoadListernUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD0D98D31FC6A0260041246A = {
+			isa = PBXGroup;
+			children = (
+				CD0D98DE1FC6A0260041246A /* LYDownLoadListern */,
+				CD0D98F71FC6A0260041246A /* LYDownLoadListernTests */,
+				CD0D99021FC6A0260041246A /* LYDownLoadListernUITests */,
+				CD0D98DD1FC6A0260041246A /* Products */,
+				0844215C1F178657F6214AE2 /* Pods */,
+				F9CC81BF49E01EF257699661 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0D98DD1FC6A0260041246A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D98DC1FC6A0260041246A /* LYDownLoadListern.app */,
+				CD0D98F41FC6A0260041246A /* LYDownLoadListernTests.xctest */,
+				CD0D98FF1FC6A0260041246A /* LYDownLoadListernUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0D98DE1FC6A0260041246A /* LYDownLoadListern */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D99121FC6A0910041246A /* Resource */,
+				CD0D99111FC6A06E0041246A /* Classes */,
+			);
+			path = LYDownLoadListern;
+			sourceTree = "<group>";
+		};
+		CD0D98F71FC6A0260041246A /* LYDownLoadListernTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D98F81FC6A0260041246A /* LYDownLoadListernTests.m */,
+				CD0D98FA1FC6A0260041246A /* Info.plist */,
+			);
+			path = LYDownLoadListernTests;
+			sourceTree = "<group>";
+		};
+		CD0D99021FC6A0260041246A /* LYDownLoadListernUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D99031FC6A0260041246A /* LYDownLoadListernUITests.m */,
+				CD0D99051FC6A0260041246A /* Info.plist */,
+			);
+			path = LYDownLoadListernUITests;
+			sourceTree = "<group>";
+		};
+		CD0D99111FC6A06E0041246A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D99131FC6A0B30041246A /* AppDelegate */,
+				CD0D99151FC6A14E0041246A /* Other */,
+				CD0D99211FC6A3E50041246A /* LYDownLoadListern */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD0D99121FC6A0910041246A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D98E51FC6A0260041246A /* Main.storyboard */,
+				CD0D98E81FC6A0260041246A /* Assets.xcassets */,
+				CD0D98EA1FC6A0260041246A /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CD0D99131FC6A0B30041246A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D98DF1FC6A0260041246A /* AppDelegate.h */,
+				CD0D98E01FC6A0260041246A /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD0D99141FC6A0C80041246A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D98ED1FC6A0260041246A /* Info.plist */,
+				CD0D98EE1FC6A0260041246A /* main.m */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		CD0D99151FC6A14E0041246A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D99141FC6A0C80041246A /* System */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CD0D99211FC6A3E50041246A /* LYDownLoadListern */ = {
+			isa = PBXGroup;
+			children = (
+				CD0D99251FC6A4A80041246A /* LYDownLoadListernMainController.h */,
+				CD0D99261FC6A4A80041246A /* LYDownLoadListernMainController.m */,
+			);
+			path = LYDownLoadListern;
+			sourceTree = "<group>";
+		};
+		F9CC81BF49E01EF257699661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51454130C663FEEFDC5CA47D /* Pods_LYDownLoadListern.framework */,
+				1C542CCB15F732F403D0BD91 /* Pods_LYDownLoadListernTests.framework */,
+				B3A00C0812C087B05169B2EE /* Pods_LYDownLoadListernUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0D98DB1FC6A0260041246A /* LYDownLoadListern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0D99081FC6A0260041246A /* Build configuration list for PBXNativeTarget "LYDownLoadListern" */;
+			buildPhases = (
+				EA867A3148EF51E22C2A780D /* [CP] Check Pods Manifest.lock */,
+				CD0D98D81FC6A0260041246A /* Sources */,
+				CD0D98D91FC6A0260041246A /* Frameworks */,
+				CD0D98DA1FC6A0260041246A /* Resources */,
+				6FF38E5ABEDFDC9D797D9964 /* [CP] Embed Pods Frameworks */,
+				992D5ADF78448D6C62E23A84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYDownLoadListern;
+			productName = LYDownLoadListern;
+			productReference = CD0D98DC1FC6A0260041246A /* LYDownLoadListern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0D98F31FC6A0260041246A /* LYDownLoadListernTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0D990B1FC6A0260041246A /* Build configuration list for PBXNativeTarget "LYDownLoadListernTests" */;
+			buildPhases = (
+				80D031545354F3EC7CA59EB5 /* [CP] Check Pods Manifest.lock */,
+				CD0D98F01FC6A0260041246A /* Sources */,
+				CD0D98F11FC6A0260041246A /* Frameworks */,
+				CD0D98F21FC6A0260041246A /* Resources */,
+				69B67B0CDCD55E58EBB1F76B /* [CP] Embed Pods Frameworks */,
+				4FC3B5C611057EAD7CA103A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0D98F61FC6A0260041246A /* PBXTargetDependency */,
+			);
+			name = LYDownLoadListernTests;
+			productName = LYDownLoadListernTests;
+			productReference = CD0D98F41FC6A0260041246A /* LYDownLoadListernTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD0D98FE1FC6A0260041246A /* LYDownLoadListernUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0D990E1FC6A0260041246A /* Build configuration list for PBXNativeTarget "LYDownLoadListernUITests" */;
+			buildPhases = (
+				2C61980708699A80785A07F3 /* [CP] Check Pods Manifest.lock */,
+				CD0D98FB1FC6A0260041246A /* Sources */,
+				CD0D98FC1FC6A0260041246A /* Frameworks */,
+				CD0D98FD1FC6A0260041246A /* Resources */,
+				B98BA0F635FF9F198DBB6920 /* [CP] Embed Pods Frameworks */,
+				382E973578D1C367DA42996F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0D99011FC6A0260041246A /* PBXTargetDependency */,
+			);
+			name = LYDownLoadListernUITests;
+			productName = LYDownLoadListernUITests;
+			productReference = CD0D98FF1FC6A0260041246A /* LYDownLoadListernUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0D98D41FC6A0260041246A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = DeveloperLY;
+				TargetAttributes = {
+					CD0D98DB1FC6A0260041246A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					CD0D98F31FC6A0260041246A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD0D98DB1FC6A0260041246A;
+					};
+					CD0D98FE1FC6A0260041246A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD0D98DB1FC6A0260041246A;
+					};
+				};
+			};
+			buildConfigurationList = CD0D98D71FC6A0260041246A /* Build configuration list for PBXProject "LYDownLoadListern" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0D98D31FC6A0260041246A;
+			productRefGroup = CD0D98DD1FC6A0260041246A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0D98DB1FC6A0260041246A /* LYDownLoadListern */,
+				CD0D98F31FC6A0260041246A /* LYDownLoadListernTests */,
+				CD0D98FE1FC6A0260041246A /* LYDownLoadListernUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0D98DA1FC6A0260041246A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D98EC1FC6A0260041246A /* LaunchScreen.storyboard in Resources */,
+				CD0D98E91FC6A0260041246A /* Assets.xcassets in Resources */,
+				CD0D98E71FC6A0260041246A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D98F21FC6A0260041246A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D98FD1FC6A0260041246A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C61980708699A80785A07F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYDownLoadListernUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		382E973578D1C367DA42996F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListernUITests/Pods-LYDownLoadListernUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FC3B5C611057EAD7CA103A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListernTests/Pods-LYDownLoadListernTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69B67B0CDCD55E58EBB1F76B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListernTests/Pods-LYDownLoadListernTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FF38E5ABEDFDC9D797D9964 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListern/Pods-LYDownLoadListern-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LYSegmentBar/LYSegmentBar.framework",
+				"${BUILT_PRODUCTS_DIR}/LYXiMaLaYaFMBase/LYXiMaLaYaFMBase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYSegmentBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LYXiMaLaYaFMBase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListern/Pods-LYDownLoadListern-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D031545354F3EC7CA59EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYDownLoadListernTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992D5ADF78448D6C62E23A84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListern/Pods-LYDownLoadListern-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98BA0F635FF9F198DBB6920 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYDownLoadListernUITests/Pods-LYDownLoadListernUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA867A3148EF51E22C2A780D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYDownLoadListern-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0D98D81FC6A0260041246A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D99271FC6A4A80041246A /* LYDownLoadListernMainController.m in Sources */,
+				CD0D98EF1FC6A0260041246A /* main.m in Sources */,
+				CD0D98E11FC6A0260041246A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D98F01FC6A0260041246A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D98F91FC6A0260041246A /* LYDownLoadListernTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0D98FB1FC6A0260041246A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0D99041FC6A0260041246A /* LYDownLoadListernUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0D98F61FC6A0260041246A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0D98DB1FC6A0260041246A /* LYDownLoadListern */;
+			targetProxy = CD0D98F51FC6A0260041246A /* PBXContainerItemProxy */;
+		};
+		CD0D99011FC6A0260041246A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0D98DB1FC6A0260041246A /* LYDownLoadListern */;
+			targetProxy = CD0D99001FC6A0260041246A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0D98E51FC6A0260041246A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0D98E61FC6A0260041246A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD0D98EA1FC6A0260041246A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0D98EB1FC6A0260041246A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0D99061FC6A0260041246A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD0D99071FC6A0260041246A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0D99091FC6A0260041246A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8025D5E2782A6846552084CD /* Pods-LYDownLoadListern.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
+				INFOPLIST_FILE = "$(SRCROOT)/LYDownLoadListern/Classes/Other/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.LYDownLoadListern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD0D990A1FC6A0260041246A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D37207224E13A3B79C6AEB3F /* Pods-LYDownLoadListern.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
+				INFOPLIST_FILE = "$(SRCROOT)/LYDownLoadListern/Classes/Other/System/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.LYDownLoadListern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD0D990C1FC6A0260041246A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 749CD455CF45D7F1500DE277 /* Pods-LYDownLoadListernTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
+				INFOPLIST_FILE = LYDownLoadListernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.LYDownLoadListernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDownLoadListern.app/LYDownLoadListern";
+			};
+			name = Debug;
+		};
+		CD0D990D1FC6A0260041246A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0CE420D856EEF12DC236208 /* Pods-LYDownLoadListernTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
+				INFOPLIST_FILE = LYDownLoadListernTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.LYDownLoadListernTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYDownLoadListern.app/LYDownLoadListern";
+			};
+			name = Release;
+		};
+		CD0D990F1FC6A0260041246A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED54907F672F068EEE0F3D8C /* Pods-LYDownLoadListernUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
+				INFOPLIST_FILE = LYDownLoadListernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.LYDownLoadListernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYDownLoadListern;
+			};
+			name = Debug;
+		};
+		CD0D99101FC6A0260041246A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1B6A0770A2E498AEE802D2 /* Pods-LYDownLoadListernUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VW6LLKQB96;
+				INFOPLIST_FILE = LYDownLoadListernUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.developerly.LYDownLoadListernUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LYDownLoadListern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0D98D71FC6A0260041246A /* Build configuration list for PBXProject "LYDownLoadListern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D99061FC6A0260041246A /* Debug */,
+				CD0D99071FC6A0260041246A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D99081FC6A0260041246A /* Build configuration list for PBXNativeTarget "LYDownLoadListern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D99091FC6A0260041246A /* Debug */,
+				CD0D990A1FC6A0260041246A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D990B1FC6A0260041246A /* Build configuration list for PBXNativeTarget "LYDownLoadListernTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D990C1FC6A0260041246A /* Debug */,
+				CD0D990D1FC6A0260041246A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0D990E1FC6A0260041246A /* Build configuration list for PBXNativeTarget "LYDownLoadListernUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0D990F1FC6A0260041246A /* Debug */,
+				CD0D99101FC6A0260041246A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0D98D41FC6A0260041246A /* Project object */;
+}
